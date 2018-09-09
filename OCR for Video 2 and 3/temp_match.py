@@ -22,7 +22,7 @@ def return_Airspeed(img_src):
 					match=True
 			if (match):
 				return i
-	
+
 	return 0
 
 print(return_Airspeed('check6.jpg'))
