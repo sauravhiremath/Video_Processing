@@ -50,7 +50,7 @@ if __name__=="__main__":
 
 	testVid = videoDetection()
 	cap = cv2.VideoCapture(myFiles[1])
-	x,x1,y,y1 = 0,0,0,0
+	x,x1,y,y1 = 22,88,232,271,
 	testVid.video_to_frames(cap,x,x1,y,y1) #Left Side Bar Changing Value
 
 	testVid = videoDetection()
@@ -86,7 +86,7 @@ if __name__=="__main__":
 	cap = cv2.VideoCapture(myFiles[7])
 	x,x1,y,y1 = 0,0,0,0
 	testVid.video_to_frames(cap,x,x1,y,y1) #Blink ICE
-	x,x1,y,y1 = 0,0,0,0
+	x,x1,y,y1 = 555,599,44,74
 	testVid.video_to_frames(cap,x,x1,y,y1) #VTA Blink
 
 	testVid = videoDetection()
